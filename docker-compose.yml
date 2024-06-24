@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  seguimiento_hallazgo:
+    build: ./BackEnd
+    ports:
+      - "8080:8080"
